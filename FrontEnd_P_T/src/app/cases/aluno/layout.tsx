@@ -14,7 +14,7 @@ function AlunoLayout() {
   return (
     <>
     <Stack className="page-container">
-        <BreadCrumb title="Cadastro de Gêneros" />
+        <BreadCrumb title="Cadastro de Alunos" />
         <Box
           sx={{
             display: 'flex',

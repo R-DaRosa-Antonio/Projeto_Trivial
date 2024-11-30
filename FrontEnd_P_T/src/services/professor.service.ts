@@ -1,7 +1,7 @@
 import { API } from "../@libs/axios"
 import { IProfessor } from "../@libs/types";
 
-const _ENDPOINT = '/professores';
+const _ENDPOINT = '/Professores';
 
 const getAll = () => (API.get(_ENDPOINT));
 const getById = (id: string) => (API.get(`${_ENDPOINT}/${id}`));

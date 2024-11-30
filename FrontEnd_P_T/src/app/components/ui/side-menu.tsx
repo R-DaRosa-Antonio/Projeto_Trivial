@@ -10,23 +10,23 @@ function SideMenu() {
           primary="Cadastros" 
         />
         <ListItemButton
-          href="/genres"
+          href="/cursos"
         >
-          <ListItemText primary="Gêneros" />
+          <ListItemText primary="Cursos" />
         </ListItemButton>
         <Divider />
         <ListItemButton
-          href="/categories"
+          href="/Turmas"
         >
           <ListItemText 
-            primary="Categorias" 
+            primary="Turmas" 
           />
         </ListItemButton>
         <Divider />
         <ListItemButton
-          href="/movies"
+          href="/alunos"
         >
-          <ListItemText primary="Filmes/Séries" />
+          <ListItemText primary="Alunos" />
         </ListItemButton>
         <Divider />
       </List>

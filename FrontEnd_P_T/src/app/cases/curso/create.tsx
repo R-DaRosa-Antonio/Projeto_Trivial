@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ICurso } from "../../../@libs/types";
-import { CursoForm } from "./form";
+
 
 export function CursoCreate() {
   const [curso, setCurso] = useState<ICurso>({

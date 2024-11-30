@@ -14,7 +14,7 @@ function ProfessorLayout() {
   return (
     <>
     <Stack className="page-container">
-        <BreadCrumb title="Cadastro de Filmes" />
+        <BreadCrumb title="Cadastro de Professores" />
         <Box
           sx={{
             display: 'flex',

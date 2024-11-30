@@ -14,7 +14,7 @@ function TurmaLayout() {
   return (
     <>
     <Stack className="page-container">
-        <BreadCrumb title="Cadastro de Filmes" />
+        <BreadCrumb title="Cadastro de Turmas" />
         <Box
           sx={{
             display: 'flex',

@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ICurso } from "../../../@libs/types";
 import { CursoService } from "../../../services/curso.service";
-import { CursoForm } from "./form";
 
 export function CursoEdit() {
   const params = useParams();

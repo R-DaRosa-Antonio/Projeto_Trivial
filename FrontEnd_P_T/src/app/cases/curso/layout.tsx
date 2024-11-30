@@ -14,7 +14,7 @@ function CursoLayout() {
   return (
     <>
     <Stack className="page-container">
-        <BreadCrumb title="Cadastro de Categorias" />
+        <BreadCrumb title="Cadastro de Cursos" />
         <Box
           sx={{
             display: 'flex',
@@ -28,7 +28,7 @@ function CursoLayout() {
             onClick={handleCreate}
           >
             <AddIcon />
-            Adicionar
+            
           </Button>
         </Box>
 
